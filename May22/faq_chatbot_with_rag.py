@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import google.generativeai as genai
 
 # Setup Gemini API (replace with your key)
-genai.configure(api_key="AIzaSyDSU2A-L00m3ok1fVQREFdl6nrn5ajubuU")
+genai.configure(api_key="#")
 
 # Setup ChromaDB client
 chroma_client = chromadb.Client()
